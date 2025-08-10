@@ -1,27 +1,27 @@
 {
     "configurations": [
         {
-            "type": "lldb",
+            "type": "swift-lldb",
             "request": "launch",
             "sourceLanguages": [
                 "swift"
             ],
             "args": [],
-            "cwd": "${workspaceFolder:SwiftyLCD}",
+            "cwd": "${workspaceFolder:LCD1601}",
             "name": "Debug SwiftyLCD",
-            "program": "${workspaceFolder:SwiftyLCD}/.build/debug/SwiftyLCD",
+            "program": "${workspaceFolder:LCD1601}/.build/debug/SwiftyLCD",
             "preLaunchTask": "swift: Build Debug SwiftyLCD"
         },
         {
-            "type": "lldb",
+            "type": "swift-lldb",
             "request": "launch",
             "sourceLanguages": [
                 "swift"
             ],
             "args": [],
-            "cwd": "${workspaceFolder:SwiftyLCD}",
+            "cwd": "${workspaceFolder:LCD1601}",
             "name": "Release SwiftyLCD",
-            "program": "${workspaceFolder:SwiftyLCD}/.build/release/SwiftyLCD",
+            "program": "${workspaceFolder:LCD1601}/.build/release/SwiftyLCD",
             "preLaunchTask": "swift: Build Release SwiftyLCD"
         }
     ]
