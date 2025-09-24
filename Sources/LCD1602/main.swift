@@ -64,7 +64,7 @@ struct LCD1602 {
         lcdString(message: getDate(), line: 1)
         while true {
             lcdString(message: getTime(), line: 2)
-            usleep(1000000)
+            usleep(1_000_000)
         }
     }
 }
